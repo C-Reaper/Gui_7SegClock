@@ -15,7 +15,7 @@ void Update(AlxWindow* w){
 	Time_Str(buffer,Time_Real_Nano());
 	printf("\r%s",buffer);
 
-	Time_t now = Time_Get(Time_Real_Nano());
+	TimeStamp now = Time_Get(Time_Real_Nano());
 	
 	Clear(BLACK);
 
